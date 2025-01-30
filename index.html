@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flamengo x Sampaio Corrêa ao vivo - Futemix</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0f0f0f;
+      color: #ffffff;
+    }
+    .header {
+      background-color: #1a1a1a;
+      padding: 20px;
+      text-align: center;
+    }
+    .logo {
+      font-size: 2em;
+      font-weight: bold;
+      color: #e50914;
+    }
+    .content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .channel-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .channel-item {
+      background-color: #2a2a2a;
+      border-radius: 5px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    .channel-item:hover {
+      transform: scale(1.05);
+    }
+    .channel-image {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+    .channel-name {
+      padding: 10px;
+      text-align: center;
+      font-weight: bold;
+    }
+    header {
+      background-color: #1a1a1a;
+      padding: 20px;
+      text-align: center;
+    }
+    header nav {
+      margin-top: 10px;
+    }
+    header nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    header nav a.active {
+      color: #e50914;
+    }
+    .match-info {
+      text-align: center;
+    }
+    .match-info h1 {
+      margin-bottom: 10px;
+    }
+    .match-details {
+      font-size: 18px;
+      color: #cccccc;
+    }
+    .match-details span {
+      margin: 0 10px;
+    }
+    .video-container {
+      margin-top: 20px;
+    }
+    .player {
+      width: 100%;
+      height: 500px;
+      background-color: #2a2a2a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .ad-banner {
+      margin-top: 20px;
+    }
+    .teams-banner {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .team {
+      margin: 0 10px;
+    }
+    .team-logo {
+      width: 50px;
+      height: 50px;
+      margin: 0 10px;
+    }
+    .vs {
+      font-size: 24px;
+      color: #cccccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">MultiCanais</div>
+    <nav>
+      <a href="https://multicanais.tube/futebol" class="active">Futebol</a>
+      <a href="https://multicanais.tube/basquete">Basquete</a>
+      <a href="https://multicanais.tube/ufc">UFC</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="match-info">
+      <h1>Flamengo x Sampaio Corrêa-RJ</h1>
+      <div class="match-details">
+        <span class="date">30 de Janeiro de 2025</span>
+        <span class="time">21:30</span>
+        <span class="quality">HD</span>
+      </div>
+    </div>
+
+    <div class="video-container">
+      <div id="player" class="player">
+        <iframe src="https://playertv.net/e/?v=sportv" allow="encrypted-media" allowfullscreen frameborder="0" width="100%" height="500"></iframe>
+      </div>
+    </div>
+
+    <div class="ad-banner">
+      <div class="teams-banner">
+        <div class="team">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Flamengo_braz_logo.svg" alt="Flamengo" class="team-logo">
+          <span>Flamengo</span>
+        </div>
+        <div class="vs">VS</div>
+        <div class="team">
+          <img src="https://upload.wikimedia.org/wikipedia/pt/5/5d/Sampaio_Correa_FC.png" alt="Sampaio Corrêa" class="team-logo">
+          <span>Sampaio Corrêa</span>
+        </div>
+      </div>
+    </div>
